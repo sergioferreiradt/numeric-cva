@@ -13,6 +13,7 @@ export class FormComponent implements OnInit {
   constructor(private fb: FormBuilder) {
     this.form = this.fb.group({
       xpta: 123,
+      xpti: 0.42,
       xpto: ''
     });
   }
